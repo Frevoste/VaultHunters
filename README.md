@@ -23,7 +23,7 @@ The game will combine elements of puzzles and skill-based games so that players 
 ## Documentation
 
 [PyGame](https://www.pygame.org/docs/)
-
+[InventedWith](https://inventwithpython.com/pygame/)
 
 ## Authors
 
