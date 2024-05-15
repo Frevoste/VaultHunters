@@ -5,7 +5,8 @@
 #4.Main Menu
 #5.Leaderboard
 #6.Communication with Server*
-
+#BDragon1727 - https://bdragon1727.itch.io/16x16-pixel-adventures-character
+#analogStudios_ - https://analogstudios.itch.io/four-seasons-platformer-tileset
 import pygame
 
 pygame.init()
