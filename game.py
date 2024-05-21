@@ -26,7 +26,6 @@ class Game:
     def start(self):
         while self.running:
             self.screen.fill(BLACK)
-
             for event in pygame.event.get():
                 if event.type == pygame.QUIT:
                     self.running = False
@@ -34,15 +33,18 @@ class Game:
                 if event.type == pygame.KEYDOWN:
                     if event.key == pygame.K_r:
                         self.restart()
-                    self.player.keyboard(event.key)
 
+            self.player.keyboard(pygame.key.get_pressed())
             self.player.update(self.delay)
             self.player.draw(screen=self.screen)
             pygame.display.update()
-            self.clock.tick(60)
+            self.delay = self.clock.tick(60) / 1000
 
     def restart(self):
-        pass
+        self.player.x = self.start_x
+        self.player.y = self.start_y
+        self.player.x_speed = self.x_speed
+        self.player.y_speed = self.y_speed
 
 
 instance = Game()

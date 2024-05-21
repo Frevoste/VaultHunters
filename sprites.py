@@ -14,7 +14,7 @@ class Sprite:
                 image = image if not flipped else pygame.transform.flip(image, True, False)
                 self.sprites[(name, flipped)] = image
             except FileNotFoundError:
-                raise
+                print(path)
         return self.sprites[(name, flipped)]
 
 
