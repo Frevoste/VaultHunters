@@ -1,0 +1,13 @@
+{
+  "screen": {
+    "fullscreen": false,
+    "width": 1024,
+    "height": 1024
+  },
+  "font": {
+    "path": "fonts/Pixellari.ttf",
+    "size": 16
+  },
+  "max_fps": 60,
+  "entry_level": "001"
+}
