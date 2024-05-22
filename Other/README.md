@@ -1,5 +1,5 @@
 
-![Logo](https://media.discordapp.net/attachments/642345942183313410/1237746217149009985/Vault.png?ex=663cc47e&is=663b72fe&hm=83b6eee3c1c8d6a5c5075e0ece327982e1a4729fa3371ca0ea64eb3f4a075f49&=&format=webp&quality=lossless&width=550&height=275)
+![Logo](https://imgur.com/a/RUEo6zI)
 
 
 # Vault Hunters
