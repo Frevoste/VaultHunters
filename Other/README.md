@@ -1,5 +1,5 @@
 
-![Logo](https://imgur.com/a/RUEo6zI)
+![Logo](https://i.imgur.com/odIqYfL.jpeg)
 
 
 # Vault Hunters
