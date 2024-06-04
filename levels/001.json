@@ -4,6 +4,36 @@
   "block_size": 32,
   "start": {
     "x": 100,
-    "y": 100
-  }
+    "y": 800
+  },
+  "blocks": [
+    {
+      "name": "tile_top",
+      "x": 0,
+      "y": 31,
+      "w": 64,
+      "h": 1
+    },
+    {
+      "name": "tile_top_right",
+      "x": 100,
+      "y": 38,
+      "w": 1,
+      "h": 1
+    },
+    {
+      "name": "tile_bottom",
+      "x": 0,
+      "y": 39,
+      "w": 100,
+      "h": 1
+    },
+     {
+      "name": "tile_bottom_right",
+      "x": 100,
+      "y": 39,
+      "w": 1,
+      "h": 1
+    }
+  ]
 }
