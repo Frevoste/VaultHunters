@@ -6,6 +6,7 @@
     "x": 100,
     "y": 800
   },
+  "time": 60,
   "blocks": [
     {
       "name": "tile_top",
@@ -15,25 +16,29 @@
       "h": 1
     },
     {
-      "name": "tile_top_right",
-      "x": 100,
-      "y": 38,
+      "name": "tile_top",
+      "x": 32,
+      "y": 27,
       "w": 1,
-      "h": 1
+      "h": 5
     },
     {
-      "name": "tile_bottom",
-      "x": 0,
-      "y": 39,
-      "w": 100,
-      "h": 1
-    },
-     {
-      "name": "tile_bottom_right",
-      "x": 100,
-      "y": 39,
+      "name": "cactus",
+      "x": 12,
+      "y": 30,
       "w": 1,
-      "h": 1
+      "h": 1,
+      "collision": "die",
+      "overflow_y": 10
+    },
+        {
+      "name": "flag",
+      "x": 40,
+      "y": 30,
+      "w": 1,
+      "h": 1,
+      "collision": "win",
+      "overflow_y": 10
     }
   ]
 }
